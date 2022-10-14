@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tic-Tac-Toe</title>
-  <link rel="stylesheet" href="./main.css">
-  <script src="./tic-tac-toe.js"></script>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./tic-tac-toe.js"></script>
+  </head>
 
-<body>
-  <!-- HTML structure for the UI: -->
-  <!-- Your code here -->
-</body>
+  <body>
+    <!-- HTML structure for the UI: -->
+    <!-- Your code here -->
+    <h1 class="title" id="title">Tic - Tac - Toe</h1>
+    <h2 class="display-winner" id="hide">Winner: Null :(</h2>
+    <main id="board">
+      <div id="r0-c0" class="square"></div>
+      <div id="r0-c1" class="square"></div>
+      <div id="r0-c2" class="square"></div>
+      <div id="r1-c0" class="square"></div>
+      <div id="r1-c1" class="square"></div>
+      <div id="r1-c2" class="square"></div>
+      <div id="r2-c0" class="square"></div>
+      <div id="r2-c1" class="square"></div>
+      <div id="r2-c2" class="square"></div>
+    </main>
+    <footer id="options">
+      <input class="button" id="resetButton"type="reset" value="New Game" disabled>
+      <p id="turn"></p>
+      <input type="button" id="forfeit" value="Give Up">
+    </footer>
+  </body>
 
 </html>
